@@ -1,0 +1,26 @@
+{
+  "name": "uptasknodejs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon ./index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/manel91s/Proyectos-con-Node.js.git"
+  },
+  "author": "Manel Aguilera",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/manel91s/Proyectos-con-Node.js/issues"
+  },
+  "homepage": "https://github.com/manel91s/Proyectos-con-Node.js#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "pug": "^3.0.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.13"
+  }
+}
