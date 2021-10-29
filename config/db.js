@@ -1,5 +1,5 @@
 const Sequelize = require('sequelize');
-const sequelize = new Sequelize('uptasknode', 'root', 'root', {
+const db = new Sequelize('uptasknode', 'root', 'root', {
   host: 'localhost',
   dialect: 'mysql',
   port: '3306',
@@ -12,10 +12,7 @@ const sequelize = new Sequelize('uptasknode', 'root', 'root', {
     min: 0,
     acquire: 30000,
     idle: 10000
-  },
-
-  // SQLite only
-  storage: 'path/to/database.sqlite'
+  }
 });
 
-// Or you can simply use a connection uri
+module.exports = db;
