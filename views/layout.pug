@@ -8,7 +8,8 @@ html(lang="en")
         title #{nombrePagina}
     body 
         header.barra
-            h1 UpTask - Administrador de proyectos
+            h1 UpTask - Administrador de proyectos #{year}
+                
             a(href="#") Cerrar Sesión
 
         main.contenedor
@@ -19,15 +20,12 @@ html(lang="en")
                  .panel.lista-proyectos
                     h2 Proyectos
                     ul#proyectos.proyectos 
-                        li 
-                            a(href="#") Diseño de Tienda Virtual 
-                        
-                        li 
-                            a(href="#") Diseño de Nuevo Blog
-
-                        li 
-                            a(href="#") Diseño de Logotipo
+                       if(proyectos.length)
+                            each proyecto in proyectos 
+                                li
+                                    a(href=`/proyectos/${proyecto.url}`)= proyecto.nombre
 
             block contenido
 
-                    
+            //pre= vardump(proyectos)
+    script(src='/dist/bundle.js')
