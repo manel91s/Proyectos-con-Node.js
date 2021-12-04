@@ -35,3 +35,12 @@ exports.formIniciarSesion = (req, res) => {
         error: error
     })
 }
+
+exports.formRestablecerPassword = (req, res) => {
+    res.render('reestablecer', {
+        nombrePagina: 'Reestablecer tu Contraseña'
+    })
+}
+
+
+
