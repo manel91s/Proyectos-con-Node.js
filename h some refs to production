@@ -1,0 +1,77 @@
+[33mcommit 747cd707a669a49c21632dc1021badb0345d3c48[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: Manel <manel.aguilera91@gmail.com>
+Date:   Sun Dec 19 11:22:58 2021 +0100
+
+    variables mal definidas
+
+[33mcommit cc39034988979b9c841973a37c05e18f168cb517[m
+Author: Manel Aguilera Martinez <55957006+manel91s@users.noreply.github.com>
+Date:   Sat Dec 11 16:10:24 2021 +0100
+
+    Delete variables.env
+
+[33mcommit 81ac8e52b86d079f6b4cb253dcf366fee8cee74b[m
+Author: Manel-PC <manel.aguilera91@gmail.com>
+Date:   Sat Dec 11 16:06:54 2021 +0100
+
+    proyecto finalizado y preparando deployment con integración continua
+
+[33mcommit 9da090d82df8eb68045b99126ee079cd920cc942[m
+Author: Manel-PC <manel.aguilera91@gmail.com>
+Date:   Mon Dec 6 20:14:52 2021 +0100
+
+    cambiar password y envio de mailer
+
+[33mcommit ca9ffb21d7d988eef73bc4291dc152ea222b5284[m
+Author: Manel-PC <manel.aguilera91@gmail.com>
+Date:   Mon Dec 6 17:56:48 2021 +0100
+
+    enviando token
+
+[33mcommit 62f0578063667d82e52cd686469ac002350abce8[m
+Author: Manel-PC <manel.aguilera91@gmail.com>
+Date:   Sat Dec 4 13:50:31 2021 +0100
+
+    generar token de usuario
+
+[33mcommit 6228466d7f865f5c167f4d867d6939771cb96acc[m
+Author: Manel-PC <manel.aguilera91@gmail.com>
+Date:   Thu Dec 2 19:38:41 2021 +0100
+
+    finalizado la autenticación de usuarios y el proyecto
+
+[33mcommit 15e46b8d388cd07c3952ef97fe6b6ac5148cec5d[m
+Author: Manel-PC <manel.aguilera91@gmail.com>
+Date:   Wed Nov 17 19:39:19 2021 +0100
+
+    completado la pantalla de tareas
+
+[33mcommit 4424d2e60786c1b5bc02cb6642a1f6f1818e59fe[m
+Author: Manel-PC <manel.aguilera91@gmail.com>
+Date:   Thu Nov 11 17:50:23 2021 +0100
+
+    edición de proyectos finalizado y babel integrado
+
+[33mcommit d29bbcfe3f56630116a71b98614d0c0f33f69ee5[m
+Author: Manel-PC <manel.aguilera91@gmail.com>
+Date:   Fri Oct 29 16:51:01 2021 +0200
+
+    añadiendo expres-validator
+
+[33mcommit 8eff4725c6b1b127459e1a7bafc430cb738d6439[m
+Author: Manel-PC <manel.aguilera91@gmail.com>
+Date:   Sat Oct 23 12:48:45 2021 +0200
+
+    #instalando sequelize
+
+[33mcommit 3c52969f328d3825d9ae86d52c057175e4dadedc[m
+Author: Manel-PC <manel.aguilera91@gmail.com>
+Date:   Sat Oct 16 09:32:19 2021 +0200
+
+    agregar titulo
+
+[33mcommit e698d87b6a59245526778fa54347339cb2584e30[m
+Author: Manel-PC <manel.aguilera91@gmail.com>
+Date:   Sat Oct 16 09:25:57 2021 +0200
+
+    express y plantillas pug creadas
